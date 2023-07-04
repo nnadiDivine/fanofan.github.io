@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,UAAU,CAAA;EAAC,OAAO,EAAE,IAAI;CAAG",
+    "sources": [
+        "blog-post.scss"
+    ],
+    "names": [],
+    "file": "blog-post.css"
+}

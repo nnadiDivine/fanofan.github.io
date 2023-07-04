@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FANoFAN</title>
+    <link rel="stylesheet" href="../dist/css/main.css">
+    <link rel="stylesheet" href="../dist/css/faq.css">
+    <link rel="stylesheet" href="../dist/css/bootstrap.css">
+    <link rel="stylesheet" href="../dist/css/bootstraps.min.css">
+    <link rel="stylesheet" href="../dist/font-awesome/css/all.min.css">
+</head>
+<body  onscroll="chgnav();">
+    
+
+    <section class="buck" id="nvb">
+        <header class="header" id="header">
+        <span>
+        <a href=""><h1 class="fas fa-fan fan" id="new-clr"></h1></a> 
+        <a href=""><h1 id="new-clr">FANoFAN</h1></a>
+        </span>
+        <button class="phone-menu-opener fas fa-bars" onclick="toggleMenu();"></button>
+        <nav id="nav-house" class="nav-house">
+            <nav id="mynav" class="my-nav">
+                <a href="index.html" id="nvp" class="white">HOME</a>
+            <a href="products.html" id="nvp" class="white">PRODUCT</a>
+            <a href="blog.html" id="nvp" class="white">BLOG</a>
+            <a href="gallery.html" id="nvp" class="white">GALLERY</a>
+            <a href="contact.html" id="nvp" class="white">CONTACT</a>
+            <a href="faq.html" id="nvp" class="white">FAQ</a>
+            </nav>
+            <div class="nav-closer" id="nav-closer" onclick="toggleMenu();"></div>
+        </nav>
+    </header>
+    </section>
+
+    <div class="main-container">
+        <div class="container1 nav-top">
+            <button class="btn btn-success" onclick="typeNote()">Ask a Question</button>
+        </div>
+        <!-- <div class="container2"></div> -->
+        <div class="container3">
+            <form action="">
+                <textarea name="" id="note-text" placeholder="Write Note..." maxlength="96"></textarea>
+                
+<svg id="check-icon" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 448 512"><path d="M400 480H48c-26.51 0-48-21.49-48-48V80c0-26.51 21.49-48 48-48h352c26.51 0 48 21.49 48 48v352c0 26.51-21.49 48-48 48zm-204.686-98.059l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.248-16.379-6.249-22.628 0L184 302.745l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.25 16.379 6.25 22.628.001z"/></svg>
+
+<svg id="x-icon" xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 512 512"><path d="M464 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h416c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48zm-83.6 290.5c4.8 4.8 4.8 12.6 0 17.4l-40.5 40.5c-4.8 4.8-12.6 4.8-17.4 0L256 313.3l-66.5 67.1c-4.8 4.8-12.6 4.8-17.4 0l-40.5-40.5c-4.8-4.8-4.8-12.6 0-17.4l67.1-66.5-67.1-66.5c-4.8-4.8-4.8-12.6 0-17.4l40.5-40.5c4.8-4.8 12.6-4.8 17.4 0l66.5 67.1 66.5-67.1c4.8-4.8 12.6-4.8 17.4 0l40.5 40.5c4.8 4.8 4.8 12.6 0 17.4L313.3 256l67.1 66.5z"/></svg>
+<!-- <button id="x-icon" class="btn btn-primary">Send</button> -->
+            </form>
+        </div>
+    </div>
+
+    <section class="flex container2">
+        <div class="tab">
+            <p>How to Create A Fan</p>
+            <br><small>click to check reply</small>
+        </div>
+        <div class="tab3"> <p>How to arranage a fan </p><br><small>click to check reply</small></div>
+        <div class="tab4"> <p>How to Create A Fan </p><br><small>click to check reply</small></div>
+        <div class="tab5"> <p> How to fix a fan </p><br><small>click to check reply</small></div>
+        <div class="tab6" ><p></p>How to stand a fan </p><br><small>click to check reply</small></div>
+    </section>
+
+    <footer>
+        <article class="flex footer-row">
+            <!-- FOOTER TAGS -->
+            <div class="footer-tags flex">
+                <div class="tag1">
+                <p class="bold">PRODUCTS</p>
+                <P>BACKWARD LAMINA BLADED FANS</P>
+                <P>MULTIVANE FORWARD CURVED FANS</P>
+                <P>PADDLE BLADE FANS</P>
+                <P>HIGH PRESSURE BLOWER FANS</P>
+                </div>
+                <div class="tag1">
+                    <p class="bold">PRODUCTS</p>
+                    <P>BACKWARD LAMINA BLADED FANS</P>
+                    <P>MULTIVANE FORWARD CURVED FANS</P>
+                    <P>PADDLE BLADE FANS</P>
+                    <P>HIGH PRESSURE BLOWER FANS</P>
+                </div>
+            </div>
+            <!-- FOOTER NEWSLETTER -->
+            <div class="subscribe">
+                <p>Products & Services alert</p>
+                <p>Stay updated on the latest products and news</p>
+                <input type="email">
+                <button class="btn btn-success">SUBSCRIBE</button>
+            </div>
+        </article>
+
+        <article class="footer-bottom">
+            <div class="flex footer-icons" id="nave">
+            <div class="flex icons"><p>Follow Us:</p> <a href="" class="fab fa-facebook"></a><a href="" class="fab fa-twitter"></a><a href="" class="fab fa-youtube"></a><a href="" class="fab fa-instagram"></a><a href="" class="fab fa-whatsapp"></a></div>
+            <div class="flex icons"><p>Contact:</p><a href="" class="fas fa-phone"></a></div>
+            </div>
+
+            <div class="flex icons" id="navs">
+                <a href="" id="site">Site Map</a>
+                <a href="">Terms & Conditions</a>
+                <a href="">Trademarks</a>
+                <a href="">Privacy & Security</a>
+            </div>
+
+            <div class="flex footer-icons">
+            <p>copright 2000-2022 FANoFAN all rights reserved</p>
+            <p>Designed By The Vine</p>
+        </div>
+        </article>
+    </footer>
+
+
+</body>
+<script src="../dist/javascript/faq.js"></script>
+<script src="../dist/javascript/main.js"></script>
+</html>

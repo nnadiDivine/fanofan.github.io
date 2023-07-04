@@ -1,0 +1,82 @@
+.blog-pic img {
+  width: 100%;
+  height: 100%;
+}
+
+.pad {
+  padding: 15px 0 15px 0;
+}
+
+.link {
+  color: #ffcc22;
+  text-decoration: none;
+}
+
+.link:hover {
+  color: #ffcc22;
+  text-decoration: none;
+}
+
+.follow-icons {
+  margin: 10px;
+}
+
+.dark-blue {
+  background: navy;
+  color: white;
+  padding: 10px;
+}
+
+.light-blue {
+  background: blue;
+  color: white;
+  padding: 10px;
+}
+
+.lighter-blue {
+  background: lightblue;
+  color: white;
+  padding: 10px;
+}
+
+.dark-red {
+  background: red;
+  color: white;
+  padding: 10px;
+}
+
+.light-red {
+  background: lightcoral;
+  color: white;
+  padding: 10px;
+}
+
+.dark-green {
+  background: green;
+  color: white;
+  padding: 10px;
+}
+
+.light-green {
+  background: lightgreen;
+  color: white;
+  padding: 10px;
+}
+
+.trending-pic {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.trending-pic img {
+  width: 80%;
+  height: 70%;
+}
+
+.label {
+  background: #222121;
+  color: white;
+  padding: 5px;
+}
+/*# sourceMappingURL=blog.css.map */
